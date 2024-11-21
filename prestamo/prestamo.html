@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamo</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+  <div class="form">
+    <fieldset>
+        <h1>SIMULADOR DE PRESTAMO</h1>
+        <form> 
+            <div>
+            <label for="capital">TIPO PRESTAMO 
+            <select name="capital" id="opciones">
+                <option value="opcion">Seleccione Tipo de Prestamo</option>
+                <option value="opcion1">PERSONAL 30%</option>
+                <option value="opcion2">HIPOTECARIO 60%</option>
+                <option value="opcion3">AUTOMOVIL 40%</option>
+                <option value="opcion4">ELECTRODOMESTICOS 20%</option>
+                <i class="fas fa-coins"></i>
+            </label>
+            </select>
+            </div>
+
+            <div>
+                <label for="capital">MONTO
+                    <input type="text" placeholder="Ingrese Monto" id="capital">
+                    
+                </label>
+            </div>
+            <div>
+                <label for="couta">CUOTAS
+                    <input type="text" placeholder="Ingrese Cuotas " id="couta">
+                </label>
+            </div>
+            <div>
+                <label for="couta">INTERES
+                    <input type="text" placeholder="Ingrese Interes Correspondiente del Prestamo" id="interes">
+                </label>
+            </div>
+        </form>
+    <button onclick="gen_table();" id="boton-sweet">CALCULAR</button>
+    </fieldset>
+    <hr>
+    <table class="tab">
+        <thead>
+            <tr>
+                <td>NRO</td>
+                <td>CAPITAL</td>
+                <td>INTERES</td>
+                <td>IMPORTE A PAGAR</td>
+            </tr>
+        </thead>
+        <tbody id="tabPersonal">
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="ft">TOTAL</td>
+                <td id="t1"></td>
+                <td id="t2"></td>
+                <td id="t3"></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+ 
+
+    <button id="boton-aceptar">aceptar</button>
+
+
+
+    <script src="../js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

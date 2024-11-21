@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.prestamos{
+    display: grid;
+    grid-template-columns: repeat(1,800px);
+    justify-content: center;
+    gap: 200px;
+    
+}
+.card-container{
+    width: 800px;
+    height: 350px;
+    border: 3px solid black;
+    text-align: center;
+    background: linear-gradient(500deg, rgba(211, 222, 212, 0.772), rgb(102, 112, 102));
+    
+}
+
+.boton-direccionar{
+    width: 300px;
+    background-color: #f5f7f5;
+    border: #a45a0f 2px solid;
+}
+
+.text{    
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 22, 20);
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'arial';
+}
+label{
+    font-family: 'arial';
+    font-weight: bold;
+}
+
+.montototal{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #2384b0 1.8px solid;
+}
+.form{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border:  2px;
+}
+input{
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: -6px;
+    background-color: #fdfef7;
+    border: #2384b0 1.8px solid;
+}
+fieldset{
+    border: #525553 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(500deg, rgba(211, 222, 212, 0.772), rgb(102, 112, 102));
+}
+button{
+    background-color: #fdfef7;
+    border: #57859b 1.8px solid;
+    width: 100px;
+    font-family: 'arial';
+    font-size: 15px;  
+    border-radius: 2px;
+    padding: 10px;
+    margin-left:77%;
+}
+i{
+    background-color: #fdfef7;
+    color: rgb(156, 155, 155);
+    border: #173441 1px solid;
+    padding: 6.8px 8px 9.8px 8px;
+    border-left: white;
+    margin-bottom: 20px;
+}
+.tab{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'arial';
+    background-color: #e2f3e3;
+    border: #cfe6d7 2px solid;
+    margin: 0 auto;
+    width: 500px;
+}
+thead{
+    border: #173441 2px solid;
+    font-weight: bold;
+}
+tr{
+    border: #173441 2px solid;
+}
+td{
+    border: #173441 2px solid;    
+}
